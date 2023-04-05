@@ -21,6 +21,7 @@ jobs:
         #scripts/build-android-aarch64.sh    
     - name: Finally build apk
       run: |
+        sudo chmod +x ./quick-build.sh
         ./quick-build.sh    
         
     - name: Rename apk
