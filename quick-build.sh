@@ -5,6 +5,8 @@ git clone https://gitlab.com/LostGamer/android-sdk
 export ANDROID_SDK_HOME=$PWD/android-sdk
 git pull
 # If you can't configure the build, try replacing ./ with python3?
-./waf configure -T release --key=mykey.keystore,magisk6666,114514,114514 --prefix=./build
+./waf configure -T release --key=./mykey.keystore,magisk6666,114514,114514 --prefix=./build
 # Pass: Another homo moment
+./waf build
+./waf configure -T release 
 ./waf build
