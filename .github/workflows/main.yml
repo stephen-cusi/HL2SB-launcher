@@ -26,12 +26,12 @@ jobs:
         
     - name: Rename apk
       run: |
-        ls srceng-androidwaf/build/*
-        ls srceng-andriodwaf/andriod
-        mv srceng-androidwaf/build/android/mod-signed.apk hl2sb-test.apk
+#        ls srceng-androidwaf/build/*
+#        ls srceng-andriodwaf/andriod
+        mv ./srceng-androidwaf/build/andriod/mod-signed.apk ./hl2sb.apk
 
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v3
       with:
         name: hl2sb-apk
-        path: hl2sb-test.apk
+        path: ./hl2sb.apk
