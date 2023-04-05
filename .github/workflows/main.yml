@@ -1,0 +1,34 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  Build-apk-for-android:
+    runs-on: ubuntu-20.04
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Cloning apk repo and preparing for building
+      run: |
+        git clone https://github.com/klaymen1n/srceng-androidwaf
+        sudo apt-get update
+        sudo apt-get install -f -y openjdk-8-jre zip apksigner
+    - name: Build android-armv7a
+      run: |
+        #scripts/build-android-armv7a.sh
+    - name: Build-android-aarch64
+      run: |
+        #scripts/build-android-aarch64.sh    
+    - name: Finally build apk
+      run: |
+        ./quick-build.sh    
+        
+    - name: Rename apk
+      run: |
+         mv srceng-androidwaf/build/android/mod-signed.apk hl2sb-test.apk
+
+    - name: 'Upload Artifact'
+      uses: actions/upload-artifact@v3
+      with:
+        name: hl2sb-apk
+        path: hl2sb-test
