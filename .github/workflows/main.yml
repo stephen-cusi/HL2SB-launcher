@@ -33,4 +33,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: hl2sb-apk
-        path: hl2sb-test
+        path: hl2sb-test.apk
