@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="srceng_launcher_command_args">命令行参数</string>
+    <string name="srceng_launcher_about_title">关于</string>
+    <string name="srceng_launcher_about_text">"感谢 nillerusr 和 jusic 的移植
+起源引擎 Valve
+感谢stephen-cusi提供中文翻译
+stephen-cusi的github页面地址>
+https://github.com/stephen-cusi
+不得用于商业用途！
+联系我们：unknownandlost11@gmail.com
+
+捐赠：https://new.donatepay.ru/@nillerusr
+BTC（比特币）：bc1qnjq92jj9uqjtafcx2zvnwd48q89hgtd6w8a6na
+XMR（门罗币）：48iXvX61MU24m5VGc77rXQYKmoww3dZh6hn7mEwDaLVTfGhyBKq2teoPpeBq6xvqj4itsGh6EzNTzBty6ZDDevApCFNpsJg"</string>
+    <string name="srceng_launcher_launch">启动</string>
+    <string name="srceng_launcher_ok">确定</string>
+    <string name="srceng_launcher_error">错误</string>
+    <string name="new_update">有新的更新！</string>
+    <string name="source_engine_fatal">请安装起源引擎！</string>
+    <string name="mod_name">半条命2:沙盒</string>
+    <string name="current_commit" />
+    <string name="update_url" />
+</resources>

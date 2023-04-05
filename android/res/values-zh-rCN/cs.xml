@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="__17010000">
+        <item>Command-line arguments</item>
+        <item>命令行参数</item>
+    </string-array>
+    <string-array name="__17010001">
+        <item>About</item>
+        <item>关于</item>
+    </string-array>
+    <string-array name="__17010002">
+        <item>"Thanks to nillerusr and jusic for port
+valve for source engine
+
+Not for commercial use!
+Contact Us: unknownandlost11@gmail.com
+
+Donate: https://new.donatepay.ru/@nillerusr
+BTC(Bitcoin): bc1qnjq92jj9uqjtafcx2zvnwd48q89hgtd6w8a6na
+XMR(Monero): 48iXvX61MU24m5VGc77rXQYKmoww3dZh6hn7mEwDaLVTfGhyBKq2teoPpeBq6xvqj4itsGh6EzNTzBty6ZDDevApCFNpsJg"</item>
+        <item>"感谢 nillerusr 和 jusic 的移植
+起源引擎 Valve
+感谢stephen-cusi提供中文翻译
+stephen-cusi的github页面地址>
+https://github.com/stephen-cusi
+不得用于商业用途！
+联系我们：unknownandlost11@gmail.com
+
+捐赠：https://new.donatepay.ru/@nillerusr
+BTC（比特币）：bc1qnjq92jj9uqjtafcx2zvnwd48q89hgtd6w8a6na
+XMR（门罗币）：48iXvX61MU24m5VGc77rXQYKmoww3dZh6hn7mEwDaLVTfGhyBKq2teoPpeBq6xvqj4itsGh6EzNTzBty6ZDDevApCFNpsJg"</item>
+    </string-array>
+    <string-array name="__17010003">
+        <item>Launch</item>
+        <item>启动</item>
+    </string-array>
+    <string-array name="__17010004">
+        <item>OK</item>
+        <item>确定</item>
+    </string-array>
+    <string-array name="__17010005">
+        <item>Error</item>
+        <item>错误</item>
+    </string-array>
+    <string-array name="__17010006">
+        <item>Update avalible!</item>
+        <item>有新的更新！</item>
+    </string-array>
+    <string-array name="__17010007">
+        <item>Please install Source Engine!</item>
+        <item>请安装起源引擎！</item>
+    </string-array>
+    <string-array name="__17010008">
+        <item>Half-life 2:Sandbox</item>
+        <item>半条命2:沙盒</item>
+    </string-array>
+</resources>
